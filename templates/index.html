@@ -5,9 +5,12 @@
 </head>
 <body>
     <!-- Log in-->
-    <form>
-        <label for='login'><input id='login' type='text' placeholder='Javascript???' required></label>
-        <button type='Submit'>Submit</button>
+    <form action="/login" method="post">
+        <label for='login'>
+			<input name='username' type='text' placeholder='Username' required><br/>
+			<input name='password' type='text' placeholder='Password' required>
+		</label>
+        <button type='submit'>Submit</button>
     </form>
     <!-- Title, menu item 1/2/3-->
     <div id=''>
